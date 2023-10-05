@@ -26,6 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="View Detail"
+        android:backgroundTint="@color/blue"
         android:layout_gravity="bottom|center"
         android:layout_marginBottom="50dp"/>
 
@@ -35,6 +36,6 @@
         android:layout_marginTop="30dp"
         android:layout_gravity="top|center"
         android:layout_height="100dp"
-        app:srcCompat="@drawable/img_2" />
+        app:srcCompat="@drawable/logo" />
 
 </FrameLayout>

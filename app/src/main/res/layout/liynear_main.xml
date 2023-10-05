@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="114dp"
+        android:layout_height="100dp"
+        android:layout_gravity="top|center"
+        android:layout_marginVertical="20dp"
+        android:src="@drawable/kawasaki" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_margin="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/orange"
+            android:text="Profile"
+            android:textColor="@color/cream" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:layout_margin="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cream"
+            android:text="Gambar"
+            android:textColor="@color/orange" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:text="Pilih"
+            android:backgroundTint="@color/orange"
+            android:textColor="@color/cream"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:backgroundTint="@color/orange"
+        android:layout_marginRight="20dp"
+        android:text="Right"
+        android:textColor="@color/cream"/>
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:backgroundTint="@color/cream"
+        android:layout_marginLeft="20dp"
+        android:text="Left"
+        android:textColor="@color/orange"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:src="@drawable/kiri"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:contentDescription="null"
+            android:backgroundTint="@color/orange"
+            />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="174dp"
+            android:layout_height="33dp"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:layout_weight="1"
+            android:text="Pilihlah Motor"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:src="@drawable/kanan"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:contentDescription="null"
+            android:backgroundTint="@color/cream"
+            />
+
+        </LinearLayout>
+
+</LinearLayout>
